@@ -1,0 +1,10 @@
+jdbc_driver=com.mysql.jdbc.Driver
+jdbc_url=
+jdbc_username=root
+jdbc_password=dbpsw3306
+
+jdbc_initialSize=20
+jdbc_minIdle=5
+jdbc_maxActive=100
+
+jdbc_maxWait=60000

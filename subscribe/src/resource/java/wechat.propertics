@@ -1,0 +1,13 @@
+#获取关注列表 
+WECHAT_SINGLE_GETSUBLIST_URL=https://api.weixin.qq.com/cgi-bin/user/get?access_token=ACCESS_TOKEN 
+WECHAT_MODIFY_GETSUBLIST_URL=https://api.weixin.qq.com/cgi-bin/user/get?access_token=ACCESS_TOKEN&next_openid=NEXT_OPENID1
+#正式使用
+#WECHAT_SERVER_TYPE=official
+#测试使用
+WECHAT_SERVER_TYPE=test
+#获取ACCESS_TOKEN的URL
+WECHAT_ACCESS_TOKEN_URL=https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&secret=APPSECRET&appid=APPID
+#微信更新时间
+WECHAT_TOKEN_REFRESHTIME=7000
+#获取用户基本信息
+WECHAT_GETUSER_URL=https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN
